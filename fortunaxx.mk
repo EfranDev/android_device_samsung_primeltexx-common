@@ -75,8 +75,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
 # Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+#PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -123,8 +123,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libmm-qcamera \
-    camera.msm8916 \
-    Snap
+    camera.msm8916
 
 # OMX
 PRODUCT_PACKAGES += \
